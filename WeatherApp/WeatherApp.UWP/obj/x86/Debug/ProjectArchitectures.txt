@@ -1,2 +1,2 @@
-C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\WeatherApp.UWP.csproj;x86
-C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp\WeatherApp.csproj;neutral
+C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\WeatherApp.UWP.csproj;x86
+C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\WeatherApp.csproj;neutral
