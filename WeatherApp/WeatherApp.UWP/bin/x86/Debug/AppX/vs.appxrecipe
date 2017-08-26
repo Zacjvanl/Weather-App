@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>5dd015ba-2ab3-4dda-90b5-a5126efe47c6</PackageIdentityName>
     <PackageIdentityPublisher>CN=micwsing</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>E425D1918772DFEA3F58346CD809488A520A527135C5B7ED3157546F2CA8F0CC</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>5dd015ba-2ab3-4dda-90b5-a5126efe47c6_1.0.0.0_x86__cemafv7rmrnb2</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>5dd015ba-2ab3-4dda-90b5-a5126efe47c6_cemafv7rmrnb2!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-26T20:19:10.053</Modified>
+      <Modified>2017-08-26T23:02:19.227</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\bin\x86\Debug\WeatherApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\WeatherApp.UWP.exe">
       <PackagePath>entrypoint\WeatherApp.UWP.exe</PackagePath>
-      <Modified>2017-08-26T20:19:08.087</Modified>
+      <Modified>2017-08-26T23:02:16.963</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -339,9 +339,9 @@
       <PackagePath>System.ObjectModel.dll</PackagePath>
       <Modified>2016-06-12T03:14:10.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\System.Private.DataContractSerialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
+    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\System.Private.DataContractSerialization\4.1.1\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
-      <Modified>2017-02-09T18:26:02.000</Modified>
+      <Modified>2016-06-12T03:14:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\System.Private.ServiceModel\4.1.0\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
       <PackagePath>System.Private.ServiceModel.dll</PackagePath>
@@ -383,17 +383,17 @@
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
       <Modified>2016-06-12T03:14:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\System.Runtime.Serialization.Json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
+    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\System.Runtime.Serialization.Json\4.0.2\lib\netcore50\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
-      <Modified>2017-02-09T18:26:02.000</Modified>
+      <Modified>2016-06-12T03:14:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\System.Runtime.Serialization.Primitives\4.1.1\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
       <Modified>2016-06-12T03:14:32.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\System.Runtime.Serialization.Xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\System.Runtime.Serialization.Xml\4.1.1\lib\netcore50\System.Runtime.Serialization.Xml.dll">
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
-      <Modified>2017-02-09T18:26:02.000</Modified>
+      <Modified>2016-06-12T03:14:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\System.Runtime.WindowsRuntime\4.0.11\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
       <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
@@ -495,75 +495,75 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-12T03:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Xamarin.Forms\2.3.4.267\lib\uap10.0\Xamarin.Forms.Core.dll">
+    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
-      <Modified>2017-08-16T15:14:36.000</Modified>
+      <Modified>2017-03-29T17:22:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Xamarin.Forms\2.3.4.267\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
+    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Platform.UAP.dll">
       <PackagePath>Xamarin.Forms.Platform.UAP.dll</PackagePath>
-      <Modified>2017-08-16T15:14:36.000</Modified>
+      <Modified>2017-03-29T17:22:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Xamarin.Forms\2.3.4.267\lib\uap10.0\Xamarin.Forms.Platform.dll">
+    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Platform.dll">
       <PackagePath>Xamarin.Forms.Platform.dll</PackagePath>
-      <Modified>2017-08-16T15:14:36.000</Modified>
+      <Modified>2017-03-29T17:22:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Xamarin.Forms\2.3.4.267\lib\uap10.0\Xamarin.Forms.Xaml.dll">
+    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
-      <Modified>2017-08-16T15:14:36.000</Modified>
+      <Modified>2017-03-29T17:22:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp\bin\Debug\WeatherApp.dll">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\bin\Debug\WeatherApp.dll">
       <PackagePath>WeatherApp.dll</PackagePath>
-      <Modified>2017-08-26T20:19:04.228</Modified>
+      <Modified>2017-08-26T23:02:14.122</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2017-08-26T19:09:29.865</Modified>
+      <Modified>2017-08-26T22:51:20.937</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-26T19:09:29.870</Modified>
+      <Modified>2017-08-26T22:51:20.938</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-26T19:09:29.872</Modified>
+      <Modified>2017-08-26T22:51:20.940</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-26T19:09:29.874</Modified>
+      <Modified>2017-08-26T22:51:20.941</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-26T19:09:29.876</Modified>
+      <Modified>2017-08-26T22:51:20.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-26T19:09:29.879</Modified>
+      <Modified>2017-08-26T22:51:20.944</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-26T19:09:29.881</Modified>
+      <Modified>2017-08-26T22:51:20.945</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\profile_generic.png">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\profile_generic.png">
       <PackagePath>profile_generic.png</PackagePath>
-      <Modified>2017-08-26T19:09:29.908</Modified>
+      <Modified>2017-08-26T22:51:27.633</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\slideout.png">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\slideout.png">
       <PackagePath>slideout.png</PackagePath>
-      <Modified>2017-08-26T19:09:29.920</Modified>
+      <Modified>2017-08-26T22:51:27.650</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-08-26T19:09:29.894</Modified>
+      <Modified>2017-08-26T22:51:20.979</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\bin\x86\Debug\WeatherApp.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\WeatherApp.UWP.xr.xml">
       <PackagePath>WeatherApp.UWP.xr.xml</PackagePath>
-      <Modified>2017-08-26T19:48:47.863</Modified>
+      <Modified>2017-08-26T22:51:27.573</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.15063.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -573,22 +573,22 @@
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-08-26T16:25:05.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Xamarin.Forms\2.3.4.267\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
-      <Modified>2017-08-16T15:14:36.000</Modified>
+      <Modified>2017-03-29T17:22:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Xamarin.Forms\2.3.4.267\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
+    <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Xamarin.Forms\2.3.4.224\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
-      <Modified>2017-08-16T15:14:36.000</Modified>
+      <Modified>2017-03-29T17:22:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-26T20:19:09.522</Modified>
+      <Modified>2017-08-26T23:02:18.687</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp.UWP\bin\x86\Debug\Core\WeatherApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\Core\WeatherApp.UWP.exe">
       <PackagePath>WeatherApp.UWP.exe</PackagePath>
-      <Modified>2017-08-26T20:19:10.046</Modified>
+      <Modified>2017-08-26T23:02:19.227</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
