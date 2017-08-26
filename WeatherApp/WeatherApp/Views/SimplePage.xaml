@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherApp.Views.SimplePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="{Binding Title}" />
+            <Button HorizontalOptions="Center" BackgroundColor="#8B4513" VerticalOptions="CenterAndExpand" Text="Login to Weather App" Clicked="Handle_Login_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
