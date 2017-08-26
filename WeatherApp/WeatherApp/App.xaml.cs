@@ -21,15 +21,10 @@ namespace WeatherApp
             {
                 Children =
                 {
-                    new NavigationPage(new ItemsPage())
+                    new NavigationPage(new SimplePage())
                     {
-                        Title = "Browse",
-                        Icon = Device.OnPlatform("tab_feed.png",null,null)
-                    },
-                    new NavigationPage(new AboutPage())
-                    {
-                        Title = "About",
-                        Icon = Device.OnPlatform("tab_about.png",null,null)
+                        Title = "Simple Page",
+                        Icon = Device.OnPlatform("tab_about.png", null, null)
                     },
                 }
             };
