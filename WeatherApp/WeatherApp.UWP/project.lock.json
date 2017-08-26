@@ -24643,19 +24643,19 @@
     "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\zacjv\\.nuget\\packages\\": {}
+    "C:\\Users\\micws\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\zacjv\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp.UWP\\WeatherApp.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp.UWP\\WeatherApp.UWP.csproj",
       "projectName": "WeatherApp.UWP",
-      "projectPath": "C:\\Users\\zacjv\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp.UWP\\WeatherApp.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\zacjv\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp.UWP\\project.json",
-      "packagesPath": "C:\\Users\\zacjv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zacjv\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp.UWP\\obj\\",
+      "projectPath": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp.UWP\\WeatherApp.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp.UWP\\project.json",
+      "packagesPath": "C:\\Users\\micws\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "C:\\Users\\zacjv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\micws\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {
@@ -24665,8 +24665,8 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\Users\\zacjv\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
-              "projectPath": "C:\\Users\\zacjv\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp\\WeatherApp.csproj"
+            "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
+              "projectPath": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp\\WeatherApp.csproj"
             }
           }
         }
