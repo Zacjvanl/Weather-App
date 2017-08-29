@@ -24,10 +24,9 @@ namespace WeatherApp
                     new NavigationPage(new SimplePage())
                     {
                         Title = "Simple Page",
-                        Icon = Device.OnPlatform("tab_about.png", null, null)
                     },
                 }
-            };
+        };
         }
     }
 }
