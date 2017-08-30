@@ -12,14 +12,14 @@ namespace WeatherApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SimplePage : ContentPage
     {
-        void Handle_Login_Clicked(object sender, System.EventArgs e)
-        {
-            DisplayAlert("Title", "You have changed to the User Dashboard", "OK");
-        }
-
         public SimplePage()
         {
             InitializeComponent();
+        }
+
+        void Handle_Login_Clicked(object sender, System.EventArgs e)
+        {
+            DisplayAlert("Title", "You have changed to the User Dashboard", "OK");
         }
     }
 }
