@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WeatherApp;assembly=WeatherApp"
              x:Class="WeatherApp.Views.SimplePage"
-             BackgroundImage="cloudyWeather.jpg" >
-    <StackLayout>
-        <Label Text="{Binding Name}" Style="{DynamicResource labelStyle}" FontSize="Medium" FontAttributes = "Bold" LineBreakMode="NoWrap"/>
-        <Button HorizontalOptions="Center" BackgroundColor="#8B4513" VerticalOptions="CenterAndExpand" Text="Login to Weather App" Clicked="Handle_Login_Clicked"></Button>
-    </StackLayout>
+             BackgroundImage="WeatherAppTestBackground.png">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Aspect="AspectFit" Source="{local:ImageResource WeatherApp.Resources.NOAA.png}" HorizontalOptions="Center" TranslationY="50" />
+            <Button Text="Login Here" WidthRequest="200" BackgroundColor="SkyBlue" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Handle_Login_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

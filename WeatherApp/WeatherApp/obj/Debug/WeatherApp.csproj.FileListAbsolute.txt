@@ -17,7 +17,6 @@ C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherAp
 C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Views.NewItemPage.xaml.g.cs
 C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.dll
 C:\Users\micws\Source\Repos\WeatherApp\WeatherApp\WeatherApp\obj\Debug\WeatherApp.pdb
-C:\Users\zacjv\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csprojResolveAssemblyReference.cache
 C:\Users\zacjv\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csproj.CoreCompileInputs.cache
 C:\Users\zacjv\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\obj\Debug\WeatherApp.App.xaml.g.cs
 C:\Users\zacjv\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Views.SimplePage.xaml.g.cs
@@ -33,3 +32,4 @@ C:\Users\zacjv\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\bin
 C:\Users\zacjv\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Xaml.xml
 C:\Users\zacjv\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\obj\Debug\WeatherApp.dll
 C:\Users\zacjv\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\obj\Debug\WeatherApp.pdb
+C:\Users\zacjv\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csprojResolveAssemblyReference.cache

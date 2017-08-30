@@ -12,21 +12,7 @@ namespace WeatherApp
         {
             InitializeComponent();
 
-            SetMainPage();
-        }
-
-        public static void SetMainPage()
-        {
-            Current.MainPage = new TabbedPage
-            {
-                Children =
-                {
-                    new NavigationPage(new SimplePage())
-                    {
-                        Title = "Simple Page",
-                    },
-                }
-        };
+            MainPage = new SimplePage();
         }
     }
 }
