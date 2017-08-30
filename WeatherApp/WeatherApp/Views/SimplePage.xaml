@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="{Binding Title}" />
-            <Button HorizontalOptions="Center" BackgroundColor="#8B4513" VerticalOptions="CenterAndExpand" Text="Login to Weather App" Clicked="Handle_Login_Clicked"></Button>
+            <Button HorizontalOptions="Center" BackgroundColor="#8B4513" VerticalOptions="CenterAndExpand" Text="Google" Clicked="Handle_Login_ClickedAsync" Image="GOOGLE.png"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

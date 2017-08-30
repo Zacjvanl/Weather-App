@@ -223,6 +223,11 @@ C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\WeatherApp.UWP.xr.xml
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\WeatherApp.UWP.exe
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\WeatherApp.UWP.pdb
+C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\resources.pri
+C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\AppxManifest.xml
+C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\Core\AppxManifest.xml
+C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\Core\WeatherApp.UWP.exe
+C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\WeatherApp.UWP.build.appxrecipe
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\Microsoft.CSharp.dll
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\System.Net.Http.Extensions.dll
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\System.Net.Http.Primitives.dll
@@ -426,11 +431,6 @@ C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\obj\x86\Debug\FxResources.System.Xml.XDocument.SR.resw
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\obj\x86\Debug\FxResources.System.Xml.XmlDocument.SR.resw
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\obj\x86\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
-C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\resources.pri
-C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\AppxManifest.xml
-C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\Core\AppxManifest.xml
-C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\Core\WeatherApp.UWP.exe
-C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\WeatherApp.UWP.build.appxrecipe
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\obj\x86\Debug\WeatherApp.UWP.csproj.GenerateResource.Cache
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\obj\x86\Debug\priconfig.xml
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\obj\x86\Debug\priconfig.xml.intermediate

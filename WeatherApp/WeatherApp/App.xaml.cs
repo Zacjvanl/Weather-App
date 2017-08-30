@@ -1,13 +1,13 @@
 ﻿using WeatherApp.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Xamarin.Forms.OAuth;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace WeatherApp
 {
     public partial class App : Application
     {
-        //OAuthAuthenticator.AddPRovider(OAuthProviders.Google("GoogleClientId", "RedirectUrlConfiguredInGoogleAppConsole"));
         public App()
         {
             InitializeComponent();

@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-30T02:37:53.232</Modified>
+      <Modified>2017-08-30T03:24:42.512</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\WeatherApp.UWP.exe">
       <PackagePath>entrypoint\WeatherApp.UWP.exe</PackagePath>
-      <Modified>2017-08-30T02:37:51.903</Modified>
+      <Modified>2017-08-30T03:24:41.992</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micws\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -533,11 +533,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\bin\Debug\WeatherApp.dll">
       <PackagePath>WeatherApp.dll</PackagePath>
-      <Modified>2017-08-30T02:37:48.946</Modified>
+      <Modified>2017-08-30T03:24:40.135</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\bin\Debug\WeatherApp.dll.config">
       <PackagePath>WeatherApp.dll.config</PackagePath>
-      <Modified>2017-08-30T02:35:06.579</Modified>
+      <Modified>2017-08-30T03:16:22.508</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -608,11 +608,11 @@
     <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-30T02:37:52.788</Modified>
+      <Modified>2017-08-30T03:16:28.898</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp.UWP\bin\x86\Debug\Core\WeatherApp.UWP.exe">
       <PackagePath>WeatherApp.UWP.exe</PackagePath>
-      <Modified>2017-08-30T02:37:53.221</Modified>
+      <Modified>2017-08-30T03:24:42.507</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
