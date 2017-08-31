@@ -12,7 +12,7 @@ namespace WeatherApp
         {
             InitializeComponent();
 
-            MainPage = new SimplePage();
+            MainPage = new LoginPage();
         }
     }
 }
