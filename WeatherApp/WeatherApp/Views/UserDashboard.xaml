@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:WeatherApp;assembly=WeatherApp"
              x:Class="WeatherApp.Views.UserDashboard">
   <ContentPage.Content>
         <StackLayout VerticalOptions="Fill" HorizontalOptions="Fill">
-            <Label Text="This is where some current weather info may go?" TextColor="Red" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" VerticalOptions="Start" HorizontalOptions="Fill" />
+            <Label Text="This is where some current weather info may go?" BackgroundColor="Green" TextColor="Red" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" VerticalOptions="Start" HorizontalOptions="Fill" />
             <Grid Padding="10, 0, 10, 0" VerticalOptions="FillAndExpand" RowSpacing="10" ColumnSpacing="10">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*" />
@@ -18,8 +17,8 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <Button Image="weather.png" FontSize="7" Style="{StaticResource userDashboardButton}" Grid.Row="0" Grid.Column="0" />
-                <Button Text="Temperature Trend" FontSize="7" Style="{StaticResource userDashboardButton}" Grid.Row="0" Grid.Column="1" />
+                <Button Text="1" FontSize="20" Style="{StaticResource userDashboardButton}" Grid.Row="0" Grid.Column="0" />
+                <Button Text="2" FontSize="20" Style="{StaticResource userDashboardButton}" Grid.Row="0" Grid.Column="1" />
                 <Button Text="3" FontSize="20" Style="{StaticResource userDashboardButton}" Grid.Row="0" Grid.Column="2" />
                 <Button Text="4" FontSize="20" Style="{StaticResource userDashboardButton}" Grid.Row="1" Grid.Column="0" />
                 <Button Text="5" FontSize="20" Style="{StaticResource userDashboardButton}" Grid.Row="1" Grid.Column="1" />

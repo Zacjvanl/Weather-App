@@ -6,7 +6,7 @@
                 <Setter Property="BackgroundColor" Value="{DynamicResource backgroundColor}" />
             </Style>
             <Style x:Key="userDashboardButton" TargetType="Button">
-                <Setter Property="BorderRadius" Value="0" />
+                <Setter Property="BorderRadius" Value="2" />
                 <Setter Property="BackgroundColor" Value="Transparent" />
             </Style>
         </ResourceDictionary>
