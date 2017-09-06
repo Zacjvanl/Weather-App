@@ -99,7 +99,17 @@ class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		/* We need to ensure that "WeatherApp.Android.dll" comes first in this list. */
 		"WeatherApp.Android.dll",
+		"Auth0.OidcClient.dll",
 		"FormsViewGroup.dll",
+		"IdentityModel.dll",
+		"IdentityModel.OidcClient.dll",
+		"Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+		"Microsoft.Extensions.Logging.Abstractions.dll",
+		"Microsoft.Extensions.Logging.dll",
+		"Microsoft.IdentityModel.Logging.dll",
+		"Microsoft.IdentityModel.Tokens.dll",
+		"Newtonsoft.Json.dll",
+		"System.IdentityModel.Tokens.Jwt.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",
 		"Xamarin.Android.Support.Design.dll",
 		"Xamarin.Android.Support.v4.dll",
@@ -116,5 +126,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_25";
 }

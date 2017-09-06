@@ -1,1 +1,1 @@
-<resources><string name="app_name">WeatherApp.Android</string></resources>
+<resources><string name="app_name">WeatherApp.Android</string><string name="Login">Login</string><string name="auth0_domain">weatherapp.auth0.com</string><string name="auth0_client_id">l2cu7NbCTr2F47Ha3KDr4huW8zVvtT0c</string></resources>
