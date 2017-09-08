@@ -11,8 +11,8 @@
 namespace WeatherApp.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\micws\\Source\\Repos\\WeatherApp\\WeatherApp\\WeatherApp\\Views\\NewItemPage.xa" +
-        "ml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp\\View" +
+        "s\\NewItemPage.xaml")]
     public partial class NewItemPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
