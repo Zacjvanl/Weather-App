@@ -2,17 +2,14 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WeatherApp.App">
   <Application.Resources>
         <ResourceDictionary>
-            <Color x:Key="Primary">#2196F3</Color>
-            <Color x:Key="PrimaryDark">#1976D2</Color>
-            <Color x:Key="Accent">#96d1ff</Color>
-            <Color x:Key="LightBackgroundColor">#FAFAFA</Color>
-            <Color x:Key="DarkBackgroundColor">#C0C0C0</Color>
-            <Color x:Key="MediumGrayTextColor">#4d4d4d</Color>
-            <Color x:Key="LightTextColor">#999999</Color>
-
-            <Style TargetType="NavigationPage">
-                <Setter Property="BarBackgroundColor" Value="{StaticResource Primary}" />
-                <Setter Property="BarTextColor" Value="White" />
+            <Style x:Key="backgroundStyle" TargetType="VisualElement">
+                <Setter Property="BackgroundColor" Value="{DynamicResource backgroundColor}" />
+            </Style>
+            <Style x:Key="userDashboardButton" TargetType="Button">
+                <Setter Property="BorderRadius" Value="0" />
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="ContentLayout" Value="Top, 0" />
+                <Setter Property="FontSize" Value="10" />
             </Style>
         </ResourceDictionary>
     </Application.Resources>

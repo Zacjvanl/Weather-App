@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WeatherApp;assembly=WeatherApp"
+             x:Class="WeatherApp.Views.UserDashboard"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Fill" HorizontalOptions="Fill" BackgroundColor="Gray">
+            <Label Text="This is where some current weather info may go?" TextColor="Red" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" HeightRequest="100" VerticalOptions="Start" HorizontalOptions="Fill" />
+            <Grid Padding="10, 0, 10, 0" VerticalOptions="FillAndExpand" RowSpacing="10" ColumnSpacing="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Image="weather.png" Text="Current Weather" Style="{StaticResource userDashboardButton}" Grid.Row="0" Grid.Column="0" />
+                <Button Image="temptrends.png" Text="Temperature Trends" Style="{StaticResource userDashboardButton}" Grid.Row="0" Grid.Column="1" Clicked="TemperatureTrend_Clicked"/>
+                <Button Image="dew_point.png" Text="Dew Point Trends" Style="{StaticResource userDashboardButton}" Grid.Row="0" Grid.Column="2" Clicked="DewPointTrend_Clicked"/>
+                <Button Image="atmospheric_pressure.png" Text="Pressure Trends" Style="{StaticResource userDashboardButton}" Grid.Row="1" Grid.Column="0" Clicked="PressureTrend_Clicked"/>
+                <Button Image="windspeed.png" Text="Wind Speed Trends" Style="{StaticResource userDashboardButton}" Grid.Row="1" Grid.Column="1" Clicked="WindSpeedTrend_Clicked"/>
+                <Button Image="wind_direction.png" Text="Wind Direction" Style="{StaticResource userDashboardButton}" Grid.Row="1" Grid.Column="2" />
+                <Button Image="preciptrends.png" Text="Recent Precipitation" Style="{StaticResource userDashboardButton}" Grid.Row="2" Grid.Column="0" Clicked="RecentPrecipitationTrend_Clicked"/>
+                <Button Text="Meteorology at UTM" Style="{StaticResource userDashboardButton}" Grid.Row="2" Grid.Column="1" />
+                <Button Text="About the Station" Style="{StaticResource userDashboardButton}" Grid.Row="2" Grid.Column="2" />
+                <Button Text="Message Board" Style="{StaticResource userDashboardButton}" Grid.Row="3" Grid.Column="0" />
+                <Button Text="Log Out" Style="{StaticResource userDashboardButton}" Grid.Row="3" Grid.Column="1" />
+                <Button Text="Search Climate Data" Style="{StaticResource userDashboardButton}" Grid.Row="3" Grid.Column="2" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -2,6 +2,8 @@
 using Android.Content.PM;
 using Android.OS;
 
+using Syncfusion.SfChart.XForms.Droid;
+
 namespace WeatherApp.Droid
 {
     [Activity(Label = "@string/app_name", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]

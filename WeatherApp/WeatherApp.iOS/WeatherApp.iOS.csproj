@@ -94,6 +94,12 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Syncfusion.SfChart.XForms, Version=15.3451.0.29, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Syncfusion.Xamarin.SfChart.15.3.0.29\lib\Xamarin.iOS10\Syncfusion.SfChart.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfChart.XForms.iOS, Version=15.3451.0.29, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Syncfusion.Xamarin.SfChart.15.3.0.29\lib\Xamarin.iOS10\Syncfusion.SfChart.XForms.iOS.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -142,6 +148,30 @@
     <BundleResource Include="Resources\tab_feed.png" />
     <BundleResource Include="Resources\tab_feed%402x.png" />
     <BundleResource Include="Resources\tab_feed%403x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\weather.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\atmospheric_pressure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\dew_point.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\temptrends.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\winddirection.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\windspeed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\preciptrends.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\wind_direction.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

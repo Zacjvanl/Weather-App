@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WeatherApp.Models"
+             xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             x:Class="WeatherApp.Views.GraphPage">
+    <ContentPage.BindingContext>
+        <local:DataModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <chart:SfChart x:Name="Chart1" Opacity="0" TranslationY="50" VerticalOptions="Start" BackgroundColor="Gray" HeightRequest="200" HorizontalOptions="FillAndExpand">
+
+                <chart:SfChart.ChartBehaviors>
+                    <chart:ChartZoomPanBehavior EnableSelectionZooming="True"/>
+                </chart:SfChart.ChartBehaviors>
+                
+                <chart:SfChart.PrimaryAxis>
+                    <chart:CategoryAxis x:Name="dateTimeAxis">
+                        <chart:CategoryAxis.Title>
+                            <chart:ChartAxisTitle Text="Date">
+                                
+                            </chart:ChartAxisTitle>
+                        </chart:CategoryAxis.Title>
+                    </chart:CategoryAxis>
+                </chart:SfChart.PrimaryAxis>
+
+                <chart:SfChart.SecondaryAxis>
+                    <chart:NumericalAxis Interval="100">
+                    </chart:NumericalAxis>
+                </chart:SfChart.SecondaryAxis>
+
+                <chart:SfChart.Series>
+                    <chart:LineSeries ItemsSource="{Binding HighTemperature}" EnableAnimation="True" AnimationDuration="0.8">
+                        
+                    </chart:LineSeries>
+                </chart:SfChart.Series>
+
+            </chart:SfChart>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

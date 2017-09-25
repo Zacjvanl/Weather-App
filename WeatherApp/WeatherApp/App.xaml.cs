@@ -12,26 +12,9 @@ namespace WeatherApp
         {
             InitializeComponent();
 
-            SetMainPage();
-        }
-
-        public static void SetMainPage()
-        {
-            Current.MainPage = new TabbedPage
+            MainPage = new NavigationPage(new UserDashboard())
             {
-                Children =
-                {
-                    new NavigationPage(new ItemsPage())
-                    {
-                        Title = "Browse",
-                        Icon = Device.OnPlatform("tab_feed.png",null,null)
-                    },
-                    new NavigationPage(new AboutPage())
-                    {
-                        Title = "About",
-                        Icon = Device.OnPlatform("tab_about.png",null,null)
-                    },
-                }
+                BarBackgroundColor = Color.Gray,
             };
         }
     }
