@@ -22263,12 +22263,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp.UWP\\WeatherApp.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app-Clean\\WeatherApp\\WeatherApp.UWP\\WeatherApp.UWP.csproj",
       "projectName": "WeatherApp.UWP",
-      "projectPath": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp.UWP\\WeatherApp.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp.UWP\\project.json",
+      "projectPath": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app-Clean\\WeatherApp\\WeatherApp.UWP\\WeatherApp.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app-Clean\\WeatherApp\\WeatherApp.UWP\\project.json",
       "packagesPath": "C:\\Users\\micws\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp.UWP\\obj\\",
+      "outputPath": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app-Clean\\WeatherApp\\WeatherApp.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\micws\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22281,8 +22281,8 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
-              "projectPath": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app\\WeatherApp\\WeatherApp\\WeatherApp.csproj"
+            "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app-Clean\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
+              "projectPath": "C:\\Users\\micws\\Source\\Repos\\senior-seminar-weather-app-Clean\\WeatherApp\\WeatherApp\\WeatherApp.csproj"
             }
           }
         }
