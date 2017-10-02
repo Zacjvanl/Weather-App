@@ -1,13 +1,112 @@
-﻿using System;
+﻿using Syncfusion.SfChart.XForms;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WeatherApp.Services;
 
 namespace WeatherApp.Models
 {
     class Graph
     {
-        public string test = "<html style='background-color: Gray;'><head><script src='https://cdn.plot.ly/plotly-latest.min.js'></script><script src = 'https://code.jquery.com/jquery-3.2.1.min.js' integrity = 'sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=' crossorigin = 'anonymous'></script></head><body style='margin: 0;'><div id='my-graph' style='width:100%; height: 200px;'></div><script>$(document).ready(function() { Plotly.plot('my-graph', [{ x: [1,2,3,4,5], y: [1,2,4,8,16] }], { margin: {t:50, b:50, l: 25, r: 25, pad: 0}, showLegend: false, autosize: true, plot_bgcolor: '#808080', paper_bgcolor: '#808080' }, {scrollZoom: true, displayModeBar: false}); });</script></body></html>";
+        private string Type = "";
+
+        private WeatherDataValuesListModel weatherData = null;
+        public Graph(string GraphType)
+        {
+            Type = GraphType;
+
+        }
+
+        private Exception WeatherDataException()
+        {
+            if(weatherData == null)
+            {
+                return WeatherDataException();
+            }
+
+            return null;
+        }
+
+        public ObservableCollection<ChartDataPoint> Hourly(WeatherDataValuesListModel weatherData)
+        {
+            ObservableCollection<ChartDataPoint> Data = new ObservableCollection<ChartDataPoint>();
+            try
+            {
+                foreach(WeatherDataValuesModel item in weatherData.weatherDataValuesModel)
+                {
+                    if(item.Time_Stamp >= DateTime.Now.AddHours(4))
+                    {
+                        Data.Add(new ChartDataPoint(item.Time_Stamp, Convert.ToDouble(CorrespondingData(item))));
+                    }
+                }
+                return Data;
+            }
+            catch(Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public ObservableCollection<ChartDataPoint> Daily(WeatherDataValuesListModel weatherData)
+        {
+            ObservableCollection<ChartDataPoint> Data = new ObservableCollection<ChartDataPoint>();
+            try
+            {
+                foreach (WeatherDataValuesModel item in weatherData.weatherDataValuesModel)
+                {
+                    if (item.Time_Stamp >= DateTime.Now.AddHours(5).AddDays(-1))
+                    {
+                        Data.Add(new ChartDataPoint(item.Time_Stamp, Convert.ToDouble(CorrespondingData(item))));
+                    }
+                }
+                return Data;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        public ObservableCollection<ChartDataPoint> Weekly(WeatherDataValuesListModel weatherData)
+        {
+            ObservableCollection<ChartDataPoint> Data = new ObservableCollection<ChartDataPoint>();
+            try
+            {
+                foreach (WeatherDataValuesModel item in weatherData.weatherDataValuesModel)
+                {
+                    if (item.Time_Stamp >= DateTime.Now.AddHours(5).AddDays(-7))
+                    {
+                        Data.Add(new ChartDataPoint(item.Time_Stamp, Convert.ToDouble(CorrespondingData(item))));
+                    }
+                }
+                return Data;
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
+        private Object CorrespondingData(WeatherDataValuesModel item)
+        {
+            switch (Type)
+            {
+                case "Temperature":
+                    return item.T2_Avg;
+                case "Dew Point":
+                    return item.RH2;
+                case "Pressure":
+                    return item.P_mb_Avg;
+                case "Wind Speed":
+                    return item.U2_Avg;
+                case "Recent Precipitation":
+                    return item.PPN_mm_Tot;
+                default:
+                    return item.Batt_Volt_Avg;
+            }
+        }
     }
 }

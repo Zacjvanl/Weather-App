@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherApp.Views.AboutDepartment"
+             BackgroundImage="dashboard.jpg"
+             Title="Meteorology at UT Martin">
+    <ContentPage.Content>
+        <ScrollView>
+            <Label TextColor="WhiteSmoke" FontSize="Medium" Text="UT Martin is the only school in Tennessee offering a concentration in meteorology. The concentration was launched in 2010 and is housed in the department of Agriculture, Geosciences and Natural Resources. We offer a comprehensive range of courses that prepare students for careers and/or graduate work in the atmospheric sciences. We are a growing program and currently lay claim to approximately 13 students. There are many research and certification opportunities here at UT Martin that can augment a student's education. Students can pursue a certification in Geographic Information Systems (GIS), the necessary coursework for certification as a Broadcast Meteorologist or Certified Consulting Meteorologist by the American Meteorological Society (AMS), and research opportunities through the University Scholars program or individually with faculty. UT Martin Meteorology students have obtained internships with the National Weather Service, television and radio stations (WKRN, WHBQ, WMC, WBBJ), as well as city and county-level emergency operations centers. Alumni have gone on to graduate programs at Western Kentucky University and University of California Santa Barbara. We are home to the AMS Student Chapter at UT Martin, founded in the Spring of 2014." VerticalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" HorizontalOptions="FillAndExpand" />
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

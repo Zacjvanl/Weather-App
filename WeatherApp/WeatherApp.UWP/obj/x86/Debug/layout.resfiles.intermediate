@@ -8,6 +8,7 @@ Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 atmospheric_pressure.png
 WeatherApp.UWP.xr.xml
+dashboard.jpg
 dew_point.png
 preciptrends.png
 profile_generic.png
@@ -15,5 +16,6 @@ Properties\Default.rd.xml
 slideout.png
 temptrends.png
 weather.png
+wind_direction.png
 winddirection.jpg
 windspeed.png

@@ -1,2 +1,0 @@
-C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp.UWP\WeatherApp.UWP.csproj;x86
-C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\WeatherApp.csproj;neutral

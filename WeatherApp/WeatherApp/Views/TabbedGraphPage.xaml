@@ -3,10 +3,7 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:WeatherApp.Views;assembly=WeatherApp"  
             x:Class="WeatherApp.Views.TabbedGraphPage"
-            BarBackgroundColor="Gray"
-            BackgroundColor="Gray">
+            BarBackgroundColor="DarkBlue"
+            BackgroundColor="WhiteSmoke">
   <!--Pages can be added as references or inline-->
-    <local:GraphPage Title="Hourly" />
-    <local:GraphPage Title="Daily" />
-    <local:GraphPage Title="Weekly" />
 </TabbedPage>

@@ -1,4 +1,6 @@
-﻿using Syncfusion.SfChart.XForms.UWP;
+﻿using System;
+using Xamarin.Forms;
+using Syncfusion.SfChart.XForms.UWP;
 
 namespace WeatherApp.UWP
 {

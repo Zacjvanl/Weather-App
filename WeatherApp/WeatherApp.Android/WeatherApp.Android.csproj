@@ -45,6 +45,15 @@
     <Reference Include="FormsViewGroup, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
     </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.Android">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\android\Syncfusion.SfBusyIndicator.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.XForms">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\android\Syncfusion.SfBusyIndicator.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.XForms.Android">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\android\Syncfusion.SfBusyIndicator.XForms.Android.dll</HintPath>
+    </Reference>
     <Reference Include="Syncfusion.SfChart.XForms, Version=15.3451.0.29, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Syncfusion.Xamarin.SfChart.15.3.0.29\lib\MonoAndroid10\Syncfusion.SfChart.XForms.dll</HintPath>
     </Reference>
@@ -108,7 +117,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Tabbar.axml" />
     <AndroidResource Include="Resources\layout\Toolbar.axml" />
-    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\values\styles.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\drawable\slideout.png" />
     <AndroidResource Include="Resources\drawable-hdpi\profile_generic.png" />
     <AndroidResource Include="Resources\drawable-mdpi\profile_generic.png" />
@@ -148,6 +159,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\wind_direction.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\dashboard.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />

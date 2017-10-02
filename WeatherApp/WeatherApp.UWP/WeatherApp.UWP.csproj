@@ -90,6 +90,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <Content Include="dashboard.jpg" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
@@ -148,11 +149,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Syncfusion.SfChart.UWP">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\uwp\Syncfusion.SfChart.UWP.dll</HintPath>
+    <Reference Include="Syncfusion.SfBusyIndicator.UWP">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\uwp\Syncfusion.SfBusyIndicator.UWP.dll</HintPath>
     </Reference>
-    <Reference Include="Syncfusion.SfChart.XForms.UWP">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\uwp\Syncfusion.SfChart.XForms.UWP.dll</HintPath>
+    <Reference Include="Syncfusion.SfBusyIndicator.XForms">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\uwp\Syncfusion.SfBusyIndicator.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.XForms.UWP">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\uwp\Syncfusion.SfBusyIndicator.XForms.UWP.dll</HintPath>
     </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
