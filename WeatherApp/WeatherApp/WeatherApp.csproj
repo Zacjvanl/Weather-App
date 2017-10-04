@@ -39,6 +39,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="EmbeddedImageResourceExtension.cs" />
+    <Compile Include="Manager\LoginManager.cs" />
     <Compile Include="Models\DataListModel.cs" />
     <Compile Include="Models\HeadModel.cs" />
     <Compile Include="Models\WeatherDataModel.cs" />
