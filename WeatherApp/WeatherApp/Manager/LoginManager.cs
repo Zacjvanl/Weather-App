@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using WeatherApp.Views;
 using System.Runtime.CompilerServices;
 
 namespace WeatherApp.Manager
@@ -10,14 +11,34 @@ namespace WeatherApp.Manager
 
         public bool IsAuthenticated {
             get { return isAuthenticated; }
-            set { this.isAuthenticated = value;
-                  OnPropertyChanged();
-                }
+            set
+            {
+                this.isAuthenticated = value;
+
+                LoginCallback();
+            }
         }
 
         public static LoginManager Instance
         {
             get { return _instance; }
+        }
+
+        public void Login()
+        {
+            OnPropertyChanged();
+        }
+
+        protected void LoginCallback()
+        {
+            if (isAuthenticated)
+            {
+                App.Current.MainPage.Navigation.PushModalAsync(new LoadingPage());
+            }
+            else
+            {
+                //Say something about failure to authenticate
+            }
         }
 
         //public global::IdentityModel.OidcClient.AuthorizeState PropertyChange { get; set; }

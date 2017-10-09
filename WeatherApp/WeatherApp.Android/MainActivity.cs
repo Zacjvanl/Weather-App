@@ -50,6 +50,8 @@ namespace WeatherApp.Droid
                 Activity = this
             });
 
+            userDetailsTextView = new TextView(this);
+
             LoginManager.Instance.PropertyChanged += async (object sender2, System.ComponentModel.PropertyChangedEventArgs e2) =>
             {
                 // Prepare for the login
@@ -115,10 +117,12 @@ namespace WeatherApp.Droid
             if (loginResult.IsError)
             {
                 sb.AppendLine($"An error occurred during login: {loginResult.Error}");
+
+                LoginManager.Instance.IsAuthenticated = false;
             }
             else
             {
-
+                LoginManager.Instance.IsAuthenticated = true;
                 //sb.AppendLine($"ID Token: {loginResult.IdentityToken}");
                 //sb.AppendLine($"Access Token: {loginResult.AccessToken}");
                 //sb.AppendLine($"Refresh Token: {loginResult.RefreshToken}");

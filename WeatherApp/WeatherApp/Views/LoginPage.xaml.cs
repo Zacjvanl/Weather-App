@@ -9,7 +9,7 @@ namespace WeatherApp.Views
     {
         public void LoginButtonOnClick(object sender, System.EventArgs e)
         {
-            LoginManager.Instance.IsAuthenticated = true;
+            LoginManager.Instance.Login();
         }
 
         public LoginPage()
