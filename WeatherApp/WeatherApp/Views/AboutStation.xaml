@@ -5,8 +5,14 @@
              BackgroundImage="dashboard.jpg"
              Title="About the Station">
     <ContentPage.Content>
-        <ScrollView>
-            <Label TextColor="WhiteSmoke" Text="The automated weather station at UT Martin was installed in 2010 on the campus farm and is currently maintained by the meteorology faculty within the department of Agriculture, Geosciences and Natural Resources. The station, paid for with a grant from the Tennessee Ag-tag program, has been collecting data continuously, every five minutes, since its installation. Values reported on the web are for conditions 2m above the surface, though the station is collecting readings at 10m as well. Additional and past data is available upon request. As of July 2014, the station is co-located with the National Weather Service Cooperative Observer station for Martin, TN." HorizontalTextAlignment="Center" VerticalTextAlignment="Start" />
-        </ScrollView>
+        <StackLayout>
+            <ScrollView Padding="5">
+                <Label TextColor="WhiteSmoke" 
+                       LineBreakMode="CharacterWrap"   
+                       FontSize="Medium"
+                       IsEnabled="false"
+                       Text="The automated weather station at UT Martin was installed in 2010 on the campus farm and is currently maintained by the meteorology faculty within the department of Agriculture, Geosciences and Natural Resources. The station, paid for with a grant from the Tennessee Ag-tag program, has been collecting data continuously, every five minutes, since its installation. Values reported on the web are for conditions 2m above the surface, though the station is collecting readings at 10m as well. Additional and past data is available upon request. As of July 2014, the station is co-located with the National Weather Service Cooperative Observer station for Martin, TN." />
+            </ScrollView>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

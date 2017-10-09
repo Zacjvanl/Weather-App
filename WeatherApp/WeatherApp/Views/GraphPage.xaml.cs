@@ -25,7 +25,23 @@ namespace WeatherApp.Views
             Data.ItemsSource = GraphData;
 
 
-            Parallel.Invoke(async () => { var taskDelay = Task.Delay(750); await Task.WhenAll(taskDelay); await Chart1.FadeTo(0.6, 1500, Easing.CubicOut); }, () => Chart1.TranslateTo(0, 10, 1800, Easing.CubicOut));
+            Parallel.Invoke(async () => {
+                                var taskDelay = Task.Delay(750);
+                                await Task.WhenAll(taskDelay);
+                                await DataChart.FadeTo(0.6, 1500, Easing.CubicOut);
+                            },
+                            async () => {
+                                await btn1.FadeTo(1, 1000, Easing.CubicOut);
+                                await btn2.FadeTo(1, 1000, Easing.CubicOut);
+                                await btn3.FadeTo(1, 1000, Easing.CubicOut);
+                            }, 
+                            async () => {
+                                await btn1.TranslateTo(0, 0, 1000, Easing.CubicOut);
+                                await btn2.TranslateTo(0, 0, 1000, Easing.CubicOut);
+                                await btn3.TranslateTo(0, 0, 1000, Easing.CubicOut);
+                            },
+                            () => DataChart.TranslateTo(0, 10, 1800, Easing.CubicOut)
+             );
         }
     }
 }

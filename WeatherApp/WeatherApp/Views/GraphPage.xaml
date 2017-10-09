@@ -6,7 +6,7 @@
              x:Class="WeatherApp.Views.GraphPage">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-            <chart:SfChart x:Name="Chart1" Opacity="0" TranslationY="50" VerticalOptions="Start" BackgroundColor="WhiteSmoke" HeightRequest="200" HorizontalOptions="FillAndExpand">
+            <chart:SfChart x:Name="DataChart" Opacity="0" TranslationY="50" VerticalOptions="Start" BackgroundColor="WhiteSmoke" HeightRequest="200" HorizontalOptions="FillAndExpand">
 
                 <chart:SfChart.ChartBehaviors>
                     <chart:ChartZoomPanBehavior EnableSelectionZooming="True"/>
@@ -34,6 +34,21 @@
                 </chart:SfChart.Series>
 
             </chart:SfChart>
+
+            <Grid Padding="10, 0, 10, 100" ColumnSpacing="5" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="btn1" Opacity="0" TranslationX="-30" Text="Test" TextColor="WhiteSmoke" BorderRadius="0" BackgroundColor="DarkOrange" Grid.Row="0" Grid.Column="0" />
+                <Button x:Name="btn2" Opacity="0" TranslationX="-30" Text="Test" TextColor="WhiteSmoke" BorderRadius="0" BackgroundColor="DarkOrange" Grid.Row="0" Grid.Column="1" />
+                <Button x:Name="btn3" Opacity="0" TranslationX="-30" Text="Test" TextColor="WhiteSmoke" BorderRadius="0" BackgroundColor="DarkOrange" Grid.Row="0" Grid.Column="2" />
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

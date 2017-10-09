@@ -1,5 +1,6 @@
 ﻿using Syncfusion.SfChart.XForms;
 using System;
+using System.Runtime;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
@@ -95,9 +96,9 @@ namespace WeatherApp.Models
             switch (Type)
             {
                 case "Temperature":
-                    return item.T2_Avg;
+                    return ((((Convert.ToDouble(item.T2_Avg) + Convert.ToDouble(item.T2_Avg)) / 2) * 1.8) + 32);
                 case "Dew Point":
-                    return item.RH2;
+                    return ((((Convert.ToDouble(item.RH2) + Convert.ToDouble(item.RH1)) / 2) / 100) * ((((Convert.ToDouble(item.T2_Avg) + Convert.ToDouble(item.T1_Avg)) / 2) * 1.8) + 32));
                 case "Pressure":
                     return item.P_mb_Avg;
                 case "Wind Speed":
