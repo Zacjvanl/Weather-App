@@ -41,17 +41,34 @@
     <Compile Include="EmbeddedImageResourceExtension.cs" />
     <Compile Include="Manager\LoginManager.cs" />
     <Compile Include="Models\DataListModel.cs" />
+    <Compile Include="Models\Graph.cs" />
     <Compile Include="Models\HeadModel.cs" />
     <Compile Include="Models\WeatherDataModel.cs" />
     <Compile Include="Models\WeatherDataValuesListModel.cs" />
     <Compile Include="Models\WeatherDataValuesModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ApiService.cs" />
+    <Compile Include="Services\Auth0Service.cs" />
+    <Compile Include="Views\AboutDepartment.xaml.cs">
+      <DependentUpon>AboutDepartment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AboutStation.xaml.cs">
+      <DependentUpon>AboutStation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GraphPage.xaml.cs">
+      <DependentUpon>GraphPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\LoadingPage.xaml.cs">
       <DependentUpon>LoadingPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\LoginPage.xaml.cs">
       <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TabbedGraphPage.xaml.cs">
+      <DependentUpon>TabbedGraphPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserDashboard.xaml.cs">
+      <DependentUpon>UserDashboard.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -108,11 +125,42 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\atmospheric_pressure.png" />
+    <Content Include="Resources\dashboard.PNG" />
+    <Content Include="Resources\dew_point.png" />
+    <Content Include="Resources\preciptrends.png" />
+    <Content Include="Resources\temptrends.png" />
+    <Content Include="Resources\weather.png" />
+    <Content Include="Resources\winddirection.jpg" />
+    <Content Include="Resources\windspeed.png" />
+    <Content Include="Resources\wind_direction.png" />
     <Content Include="SyncfusionPlatformDependency\Syncfusion.SfBusyIndicator.Android.dll" />
     <Content Include="SyncfusionPlatformDependency\Syncfusion.SfBusyIndicator.XForms.Android.dll" />
     <Content Include="SyncfusionPlatformDependency\Syncfusion.SfBusyIndicator.XForms.dll" />
     <Content Include="SyncfusionPlatformDependency\Syncfusion.SfChart.Android.dll" />
     <Content Include="SyncfusionPlatformDependency\Syncfusion.SfChart.XForms.Android.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Views\AboutDepartment.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\AboutStation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\GraphPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\TabbedGraphPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserDashboard.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

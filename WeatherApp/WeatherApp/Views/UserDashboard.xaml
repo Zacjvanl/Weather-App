@@ -48,6 +48,10 @@
                         <ColumnDefinition Width="*" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
+                    <Button Text="Feature Coming Soon"
+                            Style="{StaticResource userDashboardButton}"
+                            Grid.Row="0"
+                            Grid.Column="0" />
                     <Button Image="temptrends.png" 
                             Text="Temperature Trends" 
                             Style="{StaticResource userDashboardButton}" 
@@ -72,6 +76,10 @@
                             Grid.Row="1" 
                             Grid.Column="1" 
                             Clicked="WindSpeedTrend_Clicked"/>
+                    <Button Text="Feature Coming Soon"
+                            Style="{StaticResource userDashboardButton}"
+                            Grid.Row="1"
+                            Grid.Column="2" />
                     <Button Image="preciptrends.png" 
                             Text="Recent Precipitation" 
                             Style="{StaticResource userDashboardButton}" 
@@ -88,18 +96,22 @@
                             Grid.Row="2" 
                             Grid.Column="2"                             
                             Clicked="AboutStation_Clicked" />
+                    <Button Text="Feature Coming Soon"
+                            Style="{StaticResource userDashboardButton}"
+                            Grid.Row="3"
+                            Grid.Column="0" />
+                    <Button Text="Logout"
+                            Style="{StaticResource userDashboardButton}"
+                            Grid.Row="3"
+                            Grid.Column="1"
+                            Clicked="Logout_Clicked" />
+                    <Button Text="Feature Coming Soon"
+                            Style="{StaticResource userDashboardButton}"
+                            Grid.Row="3"
+                            Grid.Column="2" />
+                    
                 </Grid>
             </StackLayout>
-
-            <busy:SfBusyIndicator x:Name="Busy" 
-                                  BackgroundColor="WhiteSmoke" 
-                                  ViewBoxHeight="100" 
-                                  ViewBoxWidth="100" 
-                                  AnimationType="Box" 
-                                  TextColor="Orange" 
-                                  Title="Loading..." 
-                                  AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
-                                  AbsoluteLayout.LayoutFlags="All" />
         </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -14,27 +14,16 @@ namespace WeatherApp.Views
     public partial class UserDashboard : ContentPage
     {
         private ApiService apiservice;
-
         private WeatherDataValuesListModel weatherData;
         public UserDashboard()
         {
             apiservice = new ApiService();
-
             InitializeComponent();
 
-            ContentPage page = new ContentPage();
-
-            AbsoluteLayout layout = new AbsoluteLayout();
-
-            layout.Children.Add(Busy);
-
-            page.Content = layout;
-
-            Navigation.PushModalAsync(page);
             Task.Run(async () =>
             {
                 weatherData = await apiservice.GetData();
-            }).ContinueWith(t => { Navigation.PopModalAsync(); });
+            }).ContinueWith(t => { App.Current.MainPage.Navigation.PopModalAsync(); });
         }
 
         private async void TemperatureTrend_Clicked(object sender, EventArgs e)
@@ -76,6 +65,11 @@ namespace WeatherApp.Views
         private async void AboutStation_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new AboutStation());
+        }
+
+        private async void Logout_Clicked(object sender, EventArgs e)
+        {
+            await App.Current.MainPage.Navigation.PopToRootAsync();
         }
     }
 }

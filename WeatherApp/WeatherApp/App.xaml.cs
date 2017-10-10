@@ -17,7 +17,7 @@ namespace WeatherApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new UserDashboard())
+            MainPage = new NavigationPage(new LoginPage())
             {
                 BarBackgroundColor = Color.DarkBlue,
             };
