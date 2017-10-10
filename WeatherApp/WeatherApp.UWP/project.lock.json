@@ -22263,12 +22263,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\zacjv\\Source\\Repos\\WorkingLoginCallback\\WeatherApp\\WeatherApp.UWP\\WeatherApp.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\zacjv\\Source\\Repos\\DependencyAddition\\WeatherApp\\WeatherApp.UWP\\WeatherApp.UWP.csproj",
       "projectName": "WeatherApp.UWP",
-      "projectPath": "C:\\Users\\zacjv\\Source\\Repos\\WorkingLoginCallback\\WeatherApp\\WeatherApp.UWP\\WeatherApp.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\zacjv\\Source\\Repos\\WorkingLoginCallback\\WeatherApp\\WeatherApp.UWP\\project.json",
+      "projectPath": "C:\\Users\\zacjv\\Source\\Repos\\DependencyAddition\\WeatherApp\\WeatherApp.UWP\\WeatherApp.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\zacjv\\Source\\Repos\\DependencyAddition\\WeatherApp\\WeatherApp.UWP\\project.json",
       "packagesPath": "C:\\Users\\zacjv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zacjv\\Source\\Repos\\WorkingLoginCallback\\WeatherApp\\WeatherApp.UWP\\obj\\",
+      "outputPath": "C:\\Users\\zacjv\\Source\\Repos\\DependencyAddition\\WeatherApp\\WeatherApp.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\zacjv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22282,8 +22282,8 @@
       "frameworks": {
         "uap10.0.10240": {
           "projectReferences": {
-            "C:\\Users\\zacjv\\Source\\Repos\\WorkingLoginCallback\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
-              "projectPath": "C:\\Users\\zacjv\\Source\\Repos\\WorkingLoginCallback\\WeatherApp\\WeatherApp\\WeatherApp.csproj"
+            "C:\\Users\\zacjv\\Source\\Repos\\DependencyAddition\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
+              "projectPath": "C:\\Users\\zacjv\\Source\\Repos\\DependencyAddition\\WeatherApp\\WeatherApp\\WeatherApp.csproj"
             }
           }
         }

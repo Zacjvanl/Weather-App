@@ -29,18 +29,16 @@ namespace WeatherApp.Droid
     public class MainActivity : Xamarin.Forms.Platform.Android.FormsApplicationActivity 
     {
         private Auth0Client client;
-        private Button loginButton;
         private TextView userDetailsTextView;
-        private TextView exampleView;
         private ApiService apiService;
         private AuthorizeState authorizeState;
         ProgressDialog progress;
-        bool isAuthenticated = false;
 
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
             Xamarin.Forms.Forms.Init(this, bundle);
+            
             LoadApplication(new App());
 
             client = new Auth0Client(new Auth0ClientOptions
@@ -205,7 +203,6 @@ namespace WeatherApp.Droid
             {
                 throw e;
             }
-            exampleView.Text = sb2.ToString();
         }
     }
 }
