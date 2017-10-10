@@ -6,8 +6,22 @@
              BackgroundImage="WeatherBackground.png">
     <ContentPage.Content>
         <StackLayout>
-            <Image Aspect="AspectFit" Source="{local:ImageResource WeatherApp.Resources.NOAA.png}" HorizontalOptions="Center" TranslationY="50" />
-            <Button Text="Login With Google" WidthRequest="200" BackgroundColor="SkyBlue" TextColor="White" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Clicked="Handle_Login_Clicked"/>
+            <Image 
+                Aspect="AspectFit" 
+                Source="{local:ImageResource WeatherApp.Resources.NOAA.png}" 
+                HorizontalOptions="Center" 
+                TranslationY="50" />
+            <Button 
+                Text="Login" 
+                WidthRequest="200" 
+                BackgroundColor="SkyBlue" 
+                TextColor="White" 
+                HorizontalOptions="CenterAndExpand" 
+                VerticalOptions="CenterAndExpand" 
+                Clicked="LoginButtonOnClick"
+                x:Name="Login"
+                x:Uid="Login"
+                />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

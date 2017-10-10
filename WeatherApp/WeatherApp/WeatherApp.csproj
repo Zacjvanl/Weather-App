@@ -38,28 +38,20 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="EmbeddedImageResourceExtension.cs" />
+    <Compile Include="Manager\LoginManager.cs" />
     <Compile Include="Models\DataListModel.cs" />
-    <Compile Include="Models\Graph.cs" />
     <Compile Include="Models\HeadModel.cs" />
     <Compile Include="Models\WeatherDataModel.cs" />
     <Compile Include="Models\WeatherDataValuesListModel.cs" />
     <Compile Include="Models\WeatherDataValuesModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ApiService.cs" />
-    <Compile Include="Views\AboutDepartment.xaml.cs">
-      <DependentUpon>AboutDepartment.xaml</DependentUpon>
+    <Compile Include="Views\LoadingPage.xaml.cs">
+      <DependentUpon>LoadingPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\AboutStation.xaml.cs">
-      <DependentUpon>AboutStation.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\GraphPage.xaml.cs">
-      <DependentUpon>GraphPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\TabbedGraphPage.xaml.cs">
-      <DependentUpon>TabbedGraphPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\UserDashboard.xaml.cs">
-      <DependentUpon>UserDashboard.xaml</DependentUpon>
+    <Compile Include="Views\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -76,28 +68,12 @@
       <HintPath>..\..\packages\Syncfusion.Xamarin.Core.15.3.0.29\lib\portable-win+net45+wp80+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Syncfusion.Core.XForms.dll</HintPath>
     </Reference>
     <Reference Include="Syncfusion.SfBusyIndicator.XForms, Version=15.3451.0.29, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\Syncfusion.Xamarin.SfBusyIndicator.15.3.0.29\lib\portable-win+net45+wp80+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Syncfusion.SfBusyIndicator.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfChart.Android">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\android\Syncfusion.SfChart.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SFChart.iOS">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SFChart.iOS.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfChart.UWP">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\uwp\Syncfusion.SfChart.UWP.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="Syncfusion.SfChart.XForms, Version=15.3451.0.29, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Syncfusion.Xamarin.SfChart.15.3.0.29\lib\portable-win+net45+wp80+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Syncfusion.SfChart.XForms.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfChart.XForms.Android">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\android\Syncfusion.SfChart.XForms.Android.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfChart.XForms.iOS">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\ios-unified\Syncfusion.SfChart.XForms.iOS.dll</HintPath>
-    </Reference>
-    <Reference Include="Syncfusion.SfChart.XForms.UWP">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\Xamarin\lib\uwp\Syncfusion.SfChart.XForms.UWP.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Forms.Core, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.Forms.2.3.4.247\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.Core.dll</HintPath>
@@ -113,57 +89,30 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\weather.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\UserDashboard.xaml">
+    <EmbeddedResource Include="Views\LoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Helpers\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\atmospheric_pressure.png" />
-    <EmbeddedResource Include="Resources\dew_point.png" />
-    <EmbeddedResource Include="Resources\temptrends.png" />
+    <EmbeddedResource Include="Resources\NOAA.png" />
+    <EmbeddedResource Include="Resources\WeatherBackground.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Resources\preciptrends.png" />
-    <EmbeddedResource Include="Resources\winddirection.jpg" />
-    <EmbeddedResource Include="Resources\windspeed.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\TabbedGraphPage.xaml">
+    <EmbeddedResource Include="Views\LoadingPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Views\GraphPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\wind_direction.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\AboutDepartment.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\AboutStation.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\dashboard.PNG" />
+    <Content Include="SyncfusionPlatformDependency\Syncfusion.SfBusyIndicator.Android.dll" />
+    <Content Include="SyncfusionPlatformDependency\Syncfusion.SfBusyIndicator.XForms.Android.dll" />
+    <Content Include="SyncfusionPlatformDependency\Syncfusion.SfBusyIndicator.XForms.dll" />
+    <Content Include="SyncfusionPlatformDependency\Syncfusion.SfChart.Android.dll" />
+    <Content Include="SyncfusionPlatformDependency\Syncfusion.SfChart.XForms.Android.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
