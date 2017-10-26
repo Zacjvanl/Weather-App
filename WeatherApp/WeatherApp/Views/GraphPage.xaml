@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:WeatherApp.Models"
+             xmlns:chart="clr-namespace:Syncfusion.SfChart.XForms;assembly=Syncfusion.SfChart.XForms"
+             x:Class="WeatherApp.Views.GraphPage">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <chart:SfChart x:Name="DataChart" Opacity="0" TranslationY="50" VerticalOptions="Start" BackgroundColor="WhiteSmoke" HeightRequest="200" HorizontalOptions="FillAndExpand">
+
+                <chart:SfChart.ChartBehaviors>
+                    <chart:ChartZoomPanBehavior EnableSelectionZooming="True"/>
+                    <chart:ChartTrackballBehavior/>
+                </chart:SfChart.ChartBehaviors>
+                
+                <chart:SfChart.PrimaryAxis>
+                    <chart:DateTimeAxis x:Name="dateTimeAxis" ShowTrackballInfo="True" EnableAutoIntervalOnZooming="True">
+                        <chart:DateTimeAxis.Title>
+                            <chart:ChartAxisTitle Text="Date">
+                                
+                            </chart:ChartAxisTitle>
+                        </chart:DateTimeAxis.Title>
+                    </chart:DateTimeAxis>
+                </chart:SfChart.PrimaryAxis>
+
+                <chart:SfChart.SecondaryAxis>
+                    <chart:NumericalAxis>
+                    </chart:NumericalAxis>
+                </chart:SfChart.SecondaryAxis>
+
+                <chart:SfChart.Series>
+                    <chart:FastLineSeries EnableAnimation="True" AnimationDuration="1" x:Name="Data" EnableDataPointSelection="True">
+                    </chart:FastLineSeries>
+                </chart:SfChart.Series>
+
+            </chart:SfChart>
+
+            <Grid Padding="10, 0, 10, 100" ColumnSpacing="5" VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="70" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="btn1" Opacity="0" TranslationX="-30" Text="Test" TextColor="WhiteSmoke" BorderRadius="0" BackgroundColor="DarkOrange" Grid.Row="0" Grid.Column="0" />
+                <Button x:Name="btn2" Opacity="0" TranslationX="-30" Text="Test" TextColor="WhiteSmoke" BorderRadius="0" BackgroundColor="DarkOrange" Grid.Row="0" Grid.Column="1" />
+                <Button x:Name="btn3" Opacity="0" TranslationX="-30" Text="Test" TextColor="WhiteSmoke" BorderRadius="0" BackgroundColor="DarkOrange" Grid.Row="0" Grid.Column="2" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

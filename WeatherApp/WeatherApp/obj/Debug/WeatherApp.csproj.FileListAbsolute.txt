@@ -36,21 +36,41 @@ C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\obj
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Views.NewItemPage.xaml.g.cs
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\obj\Debug\WeatherApp.dll
 C:\Users\micws\Source\Repos\senior-seminar-weather-app\WeatherApp\WeatherApp\obj\Debug\WeatherApp.pdb
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\bin\Debug\WeatherApp.dll
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\bin\Debug\WeatherApp.pdb
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\bin\Debug\Newtonsoft.Json.dll
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Core.dll
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Platform.dll
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Xaml.dll
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\bin\Debug\Newtonsoft.Json.xml
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Core.pdb
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Core.xml
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Platform.pdb
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Xaml.pdb
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Xaml.xml
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csprojResolveAssemblyReference.cache
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csproj.CoreCompileInputs.cache
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\obj\Debug\WeatherApp.App.xaml.g.cs
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Views.LoginPage.xaml.g.cs
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\obj\Debug\WeatherApp.dll
-C:\Users\micws\Source\Repos\senior-seminar-weather-app-Clean\WeatherApp\WeatherApp\obj\Debug\WeatherApp.pdb
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\WeatherApp.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\WeatherApp.pdb
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.Core.XForms.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SfBusyIndicator.XForms.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SfChart.Android.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SFChart.iOS.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SfChart.UWP.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SfChart.XForms.Android.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SfChart.XForms.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SfChart.XForms.iOS.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SfChart.XForms.UWP.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.Core.XForms.xml
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SfBusyIndicator.XForms.xml
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SfChart.Android.xml
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SFChart.iOS.xml
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SfChart.UWP.xml
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SfChart.UWP.pri
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Syncfusion.SfChart.XForms.xml
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Platform.pdb
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csproj.CoreCompileInputs.cache
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\obj\Debug\WeatherApp.App.xaml.g.cs
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Views.UserDashboard.xaml.g.cs
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Views.TabbedGraphPage.xaml.g.cs
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Views.GraphPage.xaml.g.cs
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Views.AboutDepartment.xaml.g.cs
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\obj\Debug\WeatherApp.Views.AboutStation.xaml.g.cs
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\obj\Debug\WeatherApp.dll
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\obj\Debug\WeatherApp.pdb
+C:\Users\zacjv\Source\Repos\WeatherApp - UserDashboard\WeatherApp\WeatherApp\obj\Debug\WeatherApp.csprojResolveAssemblyReference.cache

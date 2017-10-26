@@ -156,19 +156,33 @@ namespace WeatherApp.UWP.WeatherApp_UWP_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[5];
+            _typeNameTable = new string[12];
             _typeNameTable[0] = "Xamarin.Forms.Platform.UWP.WindowsPage";
             _typeNameTable[1] = "Xamarin.Forms.Platform.UWP.WindowsBasePage";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[3] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[4] = "WeatherApp.UWP.MainPage";
+            _typeNameTable[5] = "Syncfusion.SfChart.XForms.UWP.TooltipViewConverter";
+            _typeNameTable[6] = "Object";
+            _typeNameTable[7] = "Syncfusion.SfChart.XForms.UWP.DataMarkerViewConverter";
+            _typeNameTable[8] = "Syncfusion.SfChart.XForms.UWP.TrackballViewConverter";
+            _typeNameTable[9] = "Syncfusion.SfChart.XForms.UWP.AxisTrackballViewConverter";
+            _typeNameTable[10] = "Syncfusion.SfChart.XForms.UWP.TooltipConverter";
+            _typeNameTable[11] = "Syncfusion.SfChart.XForms.UWP.TooltipLabelFormatConverter";
 
-            _typeTable = new global::System.Type[5];
+            _typeTable = new global::System.Type[12];
             _typeTable[0] = typeof(global::Xamarin.Forms.Platform.UWP.WindowsPage);
             _typeTable[1] = typeof(global::Xamarin.Forms.Platform.UWP.WindowsBasePage);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[4] = typeof(global::WeatherApp.UWP.MainPage);
+            _typeTable[5] = typeof(global::Syncfusion.SfChart.XForms.UWP.TooltipViewConverter);
+            _typeTable[6] = typeof(global::System.Object);
+            _typeTable[7] = typeof(global::Syncfusion.SfChart.XForms.UWP.DataMarkerViewConverter);
+            _typeTable[8] = typeof(global::Syncfusion.SfChart.XForms.UWP.TrackballViewConverter);
+            _typeTable[9] = typeof(global::Syncfusion.SfChart.XForms.UWP.AxisTrackballViewConverter);
+            _typeTable[10] = typeof(global::Syncfusion.SfChart.XForms.UWP.TooltipConverter);
+            _typeTable[11] = typeof(global::Syncfusion.SfChart.XForms.UWP.TooltipLabelFormatConverter);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -205,6 +219,12 @@ namespace WeatherApp.UWP.WeatherApp_UWP_XamlTypeInfo
 
         private object Activate_0_WindowsPage() { return new global::Xamarin.Forms.Platform.UWP.WindowsPage(); }
         private object Activate_4_MainPage() { return new global::WeatherApp.UWP.MainPage(); }
+        private object Activate_5_TooltipViewConverter() { return new global::Syncfusion.SfChart.XForms.UWP.TooltipViewConverter(); }
+        private object Activate_7_DataMarkerViewConverter() { return new global::Syncfusion.SfChart.XForms.UWP.DataMarkerViewConverter(); }
+        private object Activate_8_TrackballViewConverter() { return new global::Syncfusion.SfChart.XForms.UWP.TrackballViewConverter(); }
+        private object Activate_9_AxisTrackballViewConverter() { return new global::Syncfusion.SfChart.XForms.UWP.AxisTrackballViewConverter(); }
+        private object Activate_10_TooltipConverter() { return new global::Syncfusion.SfChart.XForms.UWP.TooltipConverter(); }
+        private object Activate_11_TooltipLabelFormatConverter() { return new global::Syncfusion.SfChart.XForms.UWP.TooltipLabelFormatConverter(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -241,6 +261,52 @@ namespace WeatherApp.UWP.WeatherApp_UWP_XamlTypeInfo
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
+
+            case 5:   //  Syncfusion.SfChart.XForms.UWP.TooltipViewConverter
+                userType = new global::WeatherApp.UWP.WeatherApp_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_5_TooltipViewConverter;
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 6:   //  Object
+                xamlType = new global::WeatherApp.UWP.WeatherApp_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 7:   //  Syncfusion.SfChart.XForms.UWP.DataMarkerViewConverter
+                userType = new global::WeatherApp.UWP.WeatherApp_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_7_DataMarkerViewConverter;
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 8:   //  Syncfusion.SfChart.XForms.UWP.TrackballViewConverter
+                userType = new global::WeatherApp.UWP.WeatherApp_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_8_TrackballViewConverter;
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 9:   //  Syncfusion.SfChart.XForms.UWP.AxisTrackballViewConverter
+                userType = new global::WeatherApp.UWP.WeatherApp_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_9_AxisTrackballViewConverter;
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 10:   //  Syncfusion.SfChart.XForms.UWP.TooltipConverter
+                userType = new global::WeatherApp.UWP.WeatherApp_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_10_TooltipConverter;
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 11:   //  Syncfusion.SfChart.XForms.UWP.TooltipLabelFormatConverter
+                userType = new global::WeatherApp.UWP.WeatherApp_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_11_TooltipLabelFormatConverter;
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
             }
             return xamlType;
         }
@@ -254,6 +320,10 @@ namespace WeatherApp.UWP.WeatherApp_UWP_XamlTypeInfo
                 {
                     var otherProviders = new global::System.Collections.Generic.List<global::Windows.UI.Xaml.Markup.IXamlMetadataProvider>();
                     global::Windows.UI.Xaml.Markup.IXamlMetadataProvider provider;
+                    provider = new global::Syncfusion.UI.Xaml.Controls.Notification.Syncfusion_SfBusyIndicator_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+                    provider = new global::Syncfusion.SfChart.UWP.Syncfusion_SfChart_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
                     provider = new global::Xamarin.Forms.Platform.UAP.Xamarin_Forms_Platform_UAP_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
                     _otherProviders = otherProviders;

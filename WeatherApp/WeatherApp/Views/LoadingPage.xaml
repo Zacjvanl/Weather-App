@@ -1,13 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:busy="clr-namespace:Syncfusion.SfBusyIndicator.XForms;assembly=Syncfusion.SfBusyIndicator.XForms"
              x:Class="WeatherApp.Views.LoadingPage">
     <ContentPage.Content>
         <AbsoluteLayout>
-            <Label TextColor="Orange"
-                   Text="Loading..."
-                   AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
-                   AbsoluteLayout.LayoutFlags="All"/>
+            <busy:SfBusyIndicator x:Name="Busy" 
+                                  BackgroundColor="WhiteSmoke" 
+                                  ViewBoxHeight="100" 
+                                  ViewBoxWidth="100" 
+                                  AnimationType="Box" 
+                                  TextColor="Orange" 
+                                  Title="Loading..." 
+                                  AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
+                                  AbsoluteLayout.LayoutFlags="All" />
         </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

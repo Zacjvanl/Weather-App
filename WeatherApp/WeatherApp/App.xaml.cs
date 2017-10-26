@@ -3,6 +3,11 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using WeatherApp.Models;
+using System.Threading.Tasks;
+using Syncfusion.SfBusyIndicator.XForms;
+using WeatherApp.Services;
+
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace WeatherApp
 {
@@ -12,7 +17,10 @@ namespace WeatherApp
         {
             InitializeComponent();
 
-            MainPage = new LoginPage();
+            MainPage = new NavigationPage(new LoginPage())
+            {
+                BarBackgroundColor = Color.DarkBlue,
+            };
         }
     }
 }

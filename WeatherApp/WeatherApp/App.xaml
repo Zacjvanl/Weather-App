@@ -2,6 +2,17 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WeatherApp.App">
   <Application.Resources>
         <ResourceDictionary>
+            <Style x:Key="backgroundStyle" TargetType="VisualElement">
+                <Setter Property="BackgroundColor" Value="{DynamicResource backgroundColor}" />
+            </Style>
+            <Style x:Key="userDashboardButton" TargetType="Button">
+                <Setter Property="BorderRadius" Value="0" />
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="SteelBlue" />
+                <Setter Property="ContentLayout" Value="Top, 0" />
+                <Setter Property="Opacity" Value="0.7" />
+                <Setter Property="FontSize" Value="10" />
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

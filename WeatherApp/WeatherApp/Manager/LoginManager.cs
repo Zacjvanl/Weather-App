@@ -1,6 +1,10 @@
 ﻿using System.ComponentModel;
+using WeatherApp.Models;
 using WeatherApp.Views;
+using WeatherApp.Services;
 using System.Runtime.CompilerServices;
+using Xamarin.Forms;
+using System.Threading.Tasks;
 
 namespace WeatherApp.Manager
 {
@@ -8,6 +12,8 @@ namespace WeatherApp.Manager
     {
         static readonly LoginManager _instance = new LoginManager();
         private bool isAuthenticated;
+        private ApiService apiservice = new ApiService();
+        private WeatherDataValuesListModel weatherData;
 
         public bool IsAuthenticated {
             get { return isAuthenticated; }
@@ -17,6 +23,12 @@ namespace WeatherApp.Manager
 
                 LoginCallback();
             }
+        }
+
+        public WeatherDataValuesListModel WeatherData
+        {
+            get { return weatherData; }
+            set { weatherData = value; }
         }
 
         public static LoginManager Instance
@@ -33,6 +45,8 @@ namespace WeatherApp.Manager
         {
             if (isAuthenticated)
             {
+                App.Current.MainPage.Navigation.PushAsync(new UserDashboard());
+
                 App.Current.MainPage.Navigation.PushModalAsync(new LoadingPage());
             }
             else
